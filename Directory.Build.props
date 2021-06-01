@@ -1,0 +1,5 @@
+<Project>
+  <PropertyGroup>
+    <BuildWithLocalReferences>true</BuildWithLocalReferences>
+  </PropertyGroup>
+</Project>

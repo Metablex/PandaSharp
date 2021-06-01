@@ -1,0 +1,8 @@
+[submodule "PandaSharp.Framework"]
+	path = PandaSharp.Framework
+	url = https://github.com/Metablex/PandaSharp.Framework.git
+	branch = master
+[submodule "PandaSharp.Bamboo"]
+	path = PandaSharp.Bamboo
+	url = https://github.com/Metablex/PandaSharp.Bamboo.git
+	branch = master
