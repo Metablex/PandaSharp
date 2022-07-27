@@ -12,6 +12,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PandaSharp.Bamboo.Test", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PandaSharp.Framework.Test", "PandaSharp.Framework\PandaSharp.Framework.Test\PandaSharp.Framework.Test.csproj", "{BFED30A6-39F7-465F-A399-510B9BC92D34}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureDevOps", "AzureDevOps", "{61B5FC6E-F24A-4E71-9DFD-97ABB3A822D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PandaSharp.AzureDevOps", "PandaSharp.AzureDevOps\PandaSharp.AzureDevOps\PandaSharp.AzureDevOps.csproj", "{1320DF96-5019-404B-97CE-E90A36472C8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PandaSharp.AzureDevOps.Test", "PandaSharp.AzureDevOps\PandaSharp.AzureDevOps.Test\PandaSharp.AzureDevOps.Test.csproj", "{AC7ACAF5-AA95-48EB-8761-D39613D290FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +28,8 @@ Global
 		{862370C2-3E92-4B22-8DF2-4B779963BB48} = {B9A82950-47CA-4F90-93DF-4622FF03A555}
 		{F799C7A1-62E8-4752-8B95-C3E47469F58E} = {B9A82950-47CA-4F90-93DF-4622FF03A555}
 		{BFED30A6-39F7-465F-A399-510B9BC92D34} = {9D0B110D-003D-495F-9891-0B23775EB919}
+		{1320DF96-5019-404B-97CE-E90A36472C8B} = {61B5FC6E-F24A-4E71-9DFD-97ABB3A822D7}
+		{AC7ACAF5-AA95-48EB-8761-D39613D290FB} = {61B5FC6E-F24A-4E71-9DFD-97ABB3A822D7}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{76351374-BCD7-49DA-9E42-8BDBD9C1983A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -40,5 +48,13 @@ Global
 		{BFED30A6-39F7-465F-A399-510B9BC92D34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFED30A6-39F7-465F-A399-510B9BC92D34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFED30A6-39F7-465F-A399-510B9BC92D34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1320DF96-5019-404B-97CE-E90A36472C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1320DF96-5019-404B-97CE-E90A36472C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1320DF96-5019-404B-97CE-E90A36472C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1320DF96-5019-404B-97CE-E90A36472C8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7ACAF5-AA95-48EB-8761-D39613D290FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7ACAF5-AA95-48EB-8761-D39613D290FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7ACAF5-AA95-48EB-8761-D39613D290FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7ACAF5-AA95-48EB-8761-D39613D290FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

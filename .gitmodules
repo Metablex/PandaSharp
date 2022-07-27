@@ -6,3 +6,6 @@
 	path = PandaSharp.Bamboo
 	url = https://github.com/Metablex/PandaSharp.Bamboo.git
 	branch = master
+[submodule "PandaSharp.AzureDevOps"]
+	path = PandaSharp.AzureDevOps
+	url = https://github.com/Metablex/PandaSharp.AzureDevOps.git
